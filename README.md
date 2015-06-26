@@ -15,7 +15,7 @@ www.testbench.in
 /agent:      Contains all verification IP for switch   
 /doc:        Contains specification, test plan and coverage report  
 /rtl:        Contains the rtl code for switch and a dummy switch (for debug only)  
-/sim:        Contains the Makefile for simulation (for Synopsys VCS only), as well as some auto-generated files by running Makefile   
+/sim:        Contains the Makefile for simulation (for Synopsys VCS only)   
 /uvm_tb:     Contains higher level components like env, sequence, test, testbench and an rtl_wrapper   
 
 // ---------------------------------------                    
