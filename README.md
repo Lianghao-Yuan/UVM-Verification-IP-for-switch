@@ -1,11 +1,13 @@
 # UVM-Verification-IP-for-switch  
 A complete UVM verification IP for simple switch (router)  
 
-Project name: UVM verification environment for simple switch 
-Author: Lianghao Yuan 
-Email: yuanlianghao@gmail.com 
+Project name: UVM verification environment for simple switch    
+Author: Lianghao Yuan   
+Email: yuanlianghao@gmail.com   
 Date: 06/26/2015  
 
+Notice: the RTL code for switch in this project is provided by  
+www.testbench.in
 
 // ---------------------------------------                                             
 1. Directory structure        
