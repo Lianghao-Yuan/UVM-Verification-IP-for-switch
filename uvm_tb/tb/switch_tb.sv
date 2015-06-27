@@ -47,12 +47,12 @@ switch_wrapper dut_wrapper(.clock(clock),
                            .mem_intf);
 
 initial begin
-  uvm_config_db # (virtual switch_mem_if)::set(null, "*", "mem_intf", mem_intf);
-  uvm_config_db # (virtual switch_input_if)::set(null, "*", "input_intf", input_intf);
-  uvm_config_db # (virtual switch_output_if)::set(null, "*", "output_intf_0", output_intf[0]);
-  uvm_config_db # (virtual switch_output_if)::set(null, "*", "output_intf_1", output_intf[1]);
-  uvm_config_db # (virtual switch_output_if)::set(null, "*", "output_intf_2", output_intf[2]);
-  uvm_config_db # (virtual switch_output_if)::set(null, "*", "output_intf_3", output_intf[3]); 
+  uvm_config_db # (virtual switch_mem_if)::set(null, "uvm_test_top", "mem_intf", mem_intf);
+  uvm_config_db # (virtual switch_input_if)::set(null, "uvm_test_top", "input_intf", input_intf);
+  uvm_config_db # (virtual switch_output_if)::set(null, "uvm_test_top", "output_intf_0", output_intf[0]);
+  uvm_config_db # (virtual switch_output_if)::set(null, "uvm_test_top", "output_intf_1", output_intf[1]);
+  uvm_config_db # (virtual switch_output_if)::set(null, "uvm_test_top", "output_intf_2", output_intf[2]);
+  uvm_config_db # (virtual switch_output_if)::set(null, "uvm_test_top", "output_intf_3", output_intf[3]); 
 
   run_test();
 end
