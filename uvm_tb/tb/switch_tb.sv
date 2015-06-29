@@ -25,6 +25,8 @@
 module switch_tb;
 
 import uvm_pkg::*;
+`include "uvm_macros.svh"
+
 import switch_test_pkg::*;
 
 bit clock;
